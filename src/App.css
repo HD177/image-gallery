@@ -29,3 +29,23 @@
 .small {
   font-size: 0.75rem;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  object-fit: contain;
+  border-radius: 15px;
+}
